@@ -46,6 +46,11 @@ Build an app which will parse data from a CSV source and store it in a list of m
 1. In your `TextView` generator give the `TextView` object a listener that will get the tag from the element, use that to pull the `ImageData` object from the `List`.
 2. Use `intent.putExtra()` to add the object to the intent
 
+### Part 5.1 - Populate List
+
+1. In your main activity, call your repository's `getAppListings` method and store the result
+2. Iterate through the list using a for each loop, build a text view with each element and add it to the view.
+
 ### Part 6 - Build the layout for the details activity
 
 1. Design a layout that will display details about the app.
