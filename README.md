@@ -31,6 +31,7 @@ Build an app which will parse data from a CSV source and store it in a list of m
 
       
       4. Add your new listing to the `ArrayList` created previously
+   3. Check the data in your array and make sure you remove any element built with the header values
    7. Return the `ArrayList`
 
 ### Part 4 - Build Layout for the  List activity
